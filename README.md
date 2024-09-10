@@ -28,12 +28,6 @@ After you're finished please remove all the comments and instructions!
 For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
 -->
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h1>Logo</h1>
-  <br/>
-
-  <h3><b>README Template</b></h3>
 
 </div>
 
@@ -45,13 +39,10 @@ For more information on the importance of a professional README for your reposit
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -63,22 +54,29 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Field Tryout] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Field Tryout]** is but only a simple webpage that has a heading which has been styled.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>Programming Languages</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://css.com/">CSS</a></li>
+    <li><a href="https://js.com/">Javascript</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Frameworks and Libraries</summary>
+  <ul>
+    <li><a href="https://Bootstrap.com/">Bootstrap</a></li>
   </ul>
 </details>
 
@@ -92,7 +90,7 @@ For more information on the importance of a professional README for your reposit
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.mysql.com/">MySQL</a></li>
   </ul>
 </details>
 
@@ -100,21 +98,10 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- **[A heading]**
+- **[A centred alignment]**
+- **[Increased margin-top and margin-bottom]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,83 +109,35 @@ For more information on the importance of a professional README for your reposit
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
+1. Go into github and search this project "adonis-dave/field"
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+1. Any browser like Chrome, Edge or Safari for Mac.
+2. Github Account
+3. Git VCS
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+  git clone github.com/adonis-dave/field.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following instructions:
 
-<!--
-Example command:
+1. Go into the exact location of the folder "field".
+2. In the folder, right click the index.html file and open it with a browser.
 
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using any deploying servers you have at disposal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,19 +145,12 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **David Denis**
 
-👤 **Author1**
+- GitHub: [adonis-dave](https://github.com/adonis-dave)
+- Twitter: [@Don_touch656](https://twitter.com/Don_touch656)
+- LinkedIn: [David Denis](https://linkedin.com/in/david-denis-full-stack-developer)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +158,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Increased web content]**
+- [ ] **[More engaging content]**
+- [ ] **[A fully responsive page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +179,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, please dont hesitate to reach out for contributions and any support will be warmly appreciated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,9 +187,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Mr Filbert, the owner of this template for his contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,15 +196,14 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Can i create an issue for this project?]**
 
-  - [Answer_1]
+  - [Yes you can, I will fully take into consideration any critique and addition of ideas to this project.]
 
-- **[Question_2]**
+- **[Are you available for real-time collaboration?]**
 
-  - [Answer_2]
+  - [Indeed I am, but is for specific hours starting from 2100 to 2300.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
